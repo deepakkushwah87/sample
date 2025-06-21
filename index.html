@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Government Docs Portal</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background: #f4f4f4;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+        }
+
+        .card-title {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>My Government Docs</h1>
+
+    <div class="grid">
+        <a class="card" href="https://uidai.gov.in/en/" target="_blank">
+            <img src="https://myaadhaar.uidai.gov.in/static/media/aadhaar_english_logo.9a2d63795a7f7bdd7acb2148585336be.svg" alt="Aadhaar">
+            <div class="card-title"></div>
+        </a>
+
+        <a class="card" href="https://www.incometax.gov.in/iec/foportal" target="_blank">
+            <img src="image/WhatsApp Image 2025-06-21 at 14.31.50_7735d4a9.jpg" alt="PAN">
+            <div class="card-title"></div>
+        </a>
+
+        <a class="card" href="https://www.nvsp.in/" target="_blank">
+            <img src="https://voters.eci.gov.in/static/media/Portallogo.239672214918b407e9c7d3e4312b8ac4.svg" alt="Voter ID">
+            <div class="card-title"></div>
+        </a>
+
+        <a class="card" href="https://parivahan.gov.in/parivahan/" target="_blank">
+            <img src="https://cdni.iconscout.com/illustration/premium/thumb/driving-license-5266729-4397188.png" alt="Driving License">
+            <div class="card-title"></div>
+        </a>
+
+        <a class="card" href="https://eshram.gov.in" target="_blank">
+            <img src="https://eshramwebportal-megh.azureedge.net/nduwwsmedia/themes/images/e-shram-logo-english.png" alt="E-Shram">
+            <div class="card-title"></div>
+        </a>
+
+        <!-- More cards similarly -->
+    </div>
+
+</body>
+
+</html>
